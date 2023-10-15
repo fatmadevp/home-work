@@ -1,0 +1,38 @@
+
+
+.cards{
+	border: 1px solid #000;
+	width: 300px;
+	border-radius: 7%;
+	padding: 10px;
+	padding-bottom: 20px;
+	border-block-end: 4px solid #000;
+}
+.cards  img{
+width: 100%;
+border-radius: 7%;
+
+} 
+
+.cards p{
+	text-align: center;
+}
+.cards button{
+	width: 100px;
+	height: 30px;
+	
+	border: none;
+	position: relative;
+	left: 30%;
+	font-size: large;
+	color:;
+	border-radius: 7%;
+}
+.cards button:hover{
+	cursor: pointer;
+	opacity: 80%;
+}
+.parent {display: flex;
+justify-content: space-between;
+background-color: #F53838;
+}

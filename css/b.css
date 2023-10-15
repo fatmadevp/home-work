@@ -1,0 +1,26 @@
+.container{
+	width: 100%;
+	height: 300px;
+	background-color: grey;
+	margin: 100px auto;
+	display: flex;
+	justify-content: center;
+}
+.box img{
+	width: 100%;
+	height: 100%;
+}
+.box{
+	width: 250px;
+	height: 200px;
+background-color: yellow;
+margin: 20px;
+transition: 1S;
+}
+.box:hover{
+	transform:scale(1.3);
+	background: blue;
+	box-shadow: 10px 10px 10px #2ecc71;
+
+	
+}

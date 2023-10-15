@@ -1,0 +1,40 @@
+.container{
+	width: 100%;
+	overflow: hidden;
+	background: skyblue;
+	padding: 0px;
+	margin: 0px;
+}
+.container ul{
+	padding: 0px;
+	margin:0px;
+}
+.container ul li{
+	list-style: none;
+	float: left;
+	width: 20%;
+	height: 250px;
+	background: grey;
+	margin: 30px 20px 0px 55px;
+	box-sizing: border-box;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+.container ul li:hover{
+	opacity: 1;
+}
+.container ul li .title{
+width: 100%;
+height: 50px;
+line-height: 50px;
+text-align: center;
+background: yellow;
+border-radius: 10px;
+padding: 1px;
+}
+@media screnn and (max-width:1250px){
+	.container ul li {
+		width: 40%;
+		margin-left: 70px;
+	}
+}

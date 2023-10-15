@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.category{
+	width: 100%;
+	padding: 5px;
+	display: flex;
+	flex-wrap: wrap;
+	height: 200px;
+	column-gap: 23px;
+	background: #ccc;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.product{
+	width:12% ;
+}
+
+.product h4{
+	text-align: center;
+	font-size: 12px;
+}
+.product img{
+	width: 100%;
+}
+
+.product .circl{
+	border-radius: 50%;
+    padding: 15px;
+    background-color: #fff;
+    /*margin-bottom: 15px;*/
+}
